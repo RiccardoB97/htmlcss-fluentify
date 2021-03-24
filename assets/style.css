@@ -16,21 +16,30 @@ body{
     font-size: 14px;
 }
 
+p{
+    color:#808080 ;
+    font-size: 18px;
+}
+
 /*********
 Header 
 **********/
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 #site_header{
     height: 550px;
     background-color: #0C325A;
     background-image: url(../assets/img/background-header.png);
     background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: 110% 110%;
+    background-position: 120% 110%;
+    position: relative;
 }
 
 nav{
-    width: 80%;
-    margin: auto;
     height: 50px;
 }
 
@@ -100,11 +109,51 @@ nav{
     background-color: white;
     color: #7CBB02;
 }
+
+/* Hero menu */
+
+.hero_menu{
+    position: absolute;
+    bottom: 200px;
+    width: 45%;
+}
+.hero_menu h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.hero_menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero_btn{
+    padding: 15px 15px;
+    background-color: #7CBB02;
+}
+
+.hero_btn:hover{
+    background-color: white;
+    color: #7CBB02;
+}
 /*********
 Main
 **********/
 
+.top_bar{
+    height: 145px;
+    background-color: #D3D3D3;
+    width: 100%;
+    text-align: center;
+}
 
+.top_bar h3{
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 40px ;
+    padding-bottom: 15px;
+}
 
 
 /*********
