@@ -193,6 +193,102 @@ Main
 
 /* Two columns */
 
+.big_col_left, .big_col_right{
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+.big_col_left{
+    text-align: center;
+}
+
+.big_col_left img{
+    height: 350px;
+    margin: auto;
+}
+
+.big_col_right{
+    text-align: left;
+    color: black;
+}
+
+.big_col_right h2{
+    font-size: 2.3rem;
+}
+
+.big_col_right p{
+    font-size: 16px;
+    margin-top: 20px;
+    padding-right: 150px;
+}
 /*********
 Footer
 **********/
+
+#site_footer{
+    height: 150px;
+    background-color: #D3D3D3;
+}
+
+.left_footer{
+    text-align: left;
+    width: 50%;
+    font-size: 1.5rem;
+    color: black;
+    float: left;
+}
+
+.left_footer h2{
+    line-height: 150px;
+}
+
+.right_footer{
+    width: 50%;
+    float: left;
+    height: 100%;
+    text-align: right;
+    position: relative;
+}
+
+.right_footer label{
+    color: #808080;
+    margin-right: 20px;
+    line-height: 150px;
+}
+
+.selection{
+    float: left;
+    width: 50%;
+}
+
+#level{
+    border: none;
+    color: #808080;
+    background-color: #D3D3D3;
+    border-bottom: 1px solid #808080;
+    width: 150px;
+}
+.footer_btn{
+    padding: 20px 10px;
+    background-color: #7CBB02;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+
+.help_btn{
+    position: absolute;
+    bottom: 0;
+    left: 77%;
+    padding: 10px 10px;
+    background-color: #7CBB02;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer_btn:hover, .help_btn:hover{
+    background-color: white;
+    color: #7CBB02;
+}
