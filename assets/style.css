@@ -218,6 +218,11 @@ Main
     margin-top: 20px;
     padding-right: 150px;
 }
+
+hr{
+    color: #808080;
+    margin-bottom: 50px;
+}
 /*********
 Footer
 **********/
