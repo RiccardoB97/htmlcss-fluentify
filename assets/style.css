@@ -39,9 +39,6 @@ Header
     position: relative;
 }
 
-nav{
-    height: 50px;
-}
 
 .logo{
     width: 15%;
@@ -158,11 +155,11 @@ Main
 /* Three columns */
 
 .col_left, .col_cent, .col_right{
-    height: 550px;
     float: left;
     width: 30%;
     padding: 1% 1.1%;
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .col_left img, .col_cent img, .col_right img{
