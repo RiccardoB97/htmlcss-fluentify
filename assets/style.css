@@ -160,8 +160,8 @@ Main
 .col_left, .col_cent, .col_right{
     height: 550px;
     float: left;
-    width: 28%;
-    margin: 10px 15px;
+    width: 33.3%;
+    padding: 10px 15px;
     text-align: center;
 }
 
