@@ -217,6 +217,11 @@ Main
     font-size: 16px;
     margin-top: 20px;
     padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+.big_col_right a{
+    color: #5586BC;
 }
 
 hr{
